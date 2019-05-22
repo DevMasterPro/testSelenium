@@ -5,9 +5,14 @@ package testshah;
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;	
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;		
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.testng.annotations.Test;		
+
+
 public class headless_test {	
-		public static void main(String[] args) {
+	
+		@Test
+		public void headless_test() {
                      // Creating a new instance of the HTML unit driver
                       
                      WebDriver driver = new HtmlUnitDriver();
